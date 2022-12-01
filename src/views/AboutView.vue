@@ -29,7 +29,7 @@
       <div class="note"><div class="small">♪</div></div>
       <div class="note"><div class="small">♪</div></div>
       <div class="note"><div class="small">♪</div></div>
-      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">ソ</div></div>
       <div class="note"><div class="big">ラ</div></div>
       <div class="note"><div class="small">シ</div></div>
     </div>
@@ -82,7 +82,7 @@ body {
   font-size: 80px;
   width: 100px;
   height: 100px;
-  background-color: rgb(214, 54, 54);
+  background-color: rgb(173, 10, 10);
   border-radius: 50%;
   color: white;
   line-height: 6rem;
@@ -117,7 +117,7 @@ body {
   font-size: 50px;
   width: 70px;
   height: 70px;
-  background-color: brown;
+  background-color: rgb(197, 66, 66);
   border-radius: 50%;
   color: white;
   justify-content: center;
