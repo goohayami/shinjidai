@@ -1,9 +1,9 @@
 <template>
   <section>
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">新時代1</router-link> |
-      <router-link to="/shintwo">新時代2</router-link> |
+      <router-link to="/">ホーム</router-link> |
+      <router-link to="/about">イントロ</router-link> |
+      <router-link to="/shintwo">Aメロ1</router-link> |
     </nav>
     <router-view />
   </section>
