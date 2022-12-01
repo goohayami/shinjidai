@@ -1,6 +1,5 @@
 <template>
   <section>
-    <h2>Aメロ</h2>
     <div id="note-containnaer">
       <div class="note"><div class="small">ミ</div></div>
       <div class="note"><div class="small">レ</div></div>

@@ -1,9 +1,13 @@
 <template>
   <section>
     <nav>
-      <router-link to="/">ホーム</router-link> |
-      <router-link to="/about">イントロ</router-link> |
-      <router-link to="/shintwo">Aメロ1</router-link> |
+      <ul>
+        <router-link to="/"><li>ホーム</li></router-link>
+
+        <router-link to="/about"><li>イントロ</li></router-link>
+
+        <router-link to="/shintwo"><li>Aメロ1</li></router-link>
+      </ul>
     </nav>
     <router-view />
   </section>
@@ -19,15 +23,37 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
 }
 
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #de1414;
+  background-color: pink;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 </style>

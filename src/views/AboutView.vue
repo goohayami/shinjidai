@@ -1,6 +1,5 @@
 <template>
   <section>
-    <h2>イントロ</h2>
     <div id="note-containnaer">
       <div class="note"><div class="hight-tone">レ</div></div>
       <div class="note"><div class="smallh">ド</div></div>
