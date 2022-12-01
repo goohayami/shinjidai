@@ -92,7 +92,7 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .hight-tone {

@@ -23,7 +23,7 @@
 }
 
 nav {
-  padding: 10px;
+  padding: 0;
   list-style: none;
   text-decoration: none;
 }
