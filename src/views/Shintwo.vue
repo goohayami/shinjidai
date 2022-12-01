@@ -1,6 +1,6 @@
 <template>
   <section>
-    <p>this is Shin jidai</p>
+    <h2>Aメロ</h2>
     <div id="note-containnaer">
       <div class="note"><div class="small">ミ</div></div>
       <div class="note"><div class="small">レ</div></div>
@@ -85,6 +85,7 @@ section {
   background-color: rgb(214, 54, 54);
   border-radius: 50%;
   color: white;
+  line-height: 6rem;
 }
 .bigh {
   font-size: 80px;
@@ -116,7 +117,7 @@ section {
   font-size: 50px;
   width: 70px;
   height: 70px;
-  background-color: rgb(104, 144, 40);
+  background-color: rgb(40, 61, 144);
   border-radius: 50%;
   color: white;
   justify-content: center;

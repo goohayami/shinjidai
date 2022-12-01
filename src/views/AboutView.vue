@@ -1,6 +1,6 @@
 <template>
   <section>
-    <p>this is Shin jidai</p>
+    <h2>イントロ</h2>
     <div id="note-containnaer">
       <div class="note"><div class="hight-tone">レ</div></div>
       <div class="note"><div class="smallh">ド</div></div>
@@ -85,6 +85,7 @@ body {
   background-color: rgb(214, 54, 54);
   border-radius: 50%;
   color: white;
+  line-height: 6rem;
 }
 .bigh {
   font-size: 80px;
@@ -121,16 +122,18 @@ body {
   color: white;
   justify-content: center;
   text-align: center;
+  line-height: 4rem;
 }
 .smallh {
   margin-top: 2rem;
   font-size: 50px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   background-color: rgb(1, 189, 170);
   border-radius: 50%;
   color: white;
   justify-content: center;
   text-align: center;
+  line-height: 4rem;
 }
 </style>
