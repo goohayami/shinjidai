@@ -15,7 +15,7 @@ const routes = [
     component: AboutView,
   },
   {
-    path: "/Shintwo",
+    path: "/shintwo",
     name: "ShinTwo",
     component: ShinTwo,
   },
