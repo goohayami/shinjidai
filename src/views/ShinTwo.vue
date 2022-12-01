@@ -17,10 +17,10 @@
       <div class="note"><div class="small">レ</div></div>
       <div class="note"><div class="small">シ</div></div>
       <div class="note"><div class="big">ラ</div></div>
-      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="smallsuer">ー</div></div>
       <div class="note"><div class="big">ソ</div></div>
-      <div class="note"><div class="small">♪</div></div>
-      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="smallsuer">ー</div></div>
+      <div class="note"><div class="smallsuer">ー</div></div>
     </div>
 
     <div id="note-containnaer">
@@ -39,8 +39,30 @@
       <div class="note"><div class="small">レ</div></div>
       <div class="note"><div class="small">シ</div></div>
       <div class="note"><div class="big">ラ</div></div>
-      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="smallsuer">ー</div></div>
+      <div class="note"><div class="big">シ</div></div>
+      <div class="note"><div class="smallsuer">ー</div></div>
+      <div class="note"><div class="small">ラ</div></div>
+    </div>
+
+    <div id="note-containnaer">
       <div class="note"><div class="big">ソ</div></div>
+      <div class="note"><div class="smallCount">1</div></div>
+      <div class="note"><div class="smallCount">2</div></div>
+      <div class="note"><div class="smallCount">3</div></div>
+      <div class="note"><div class="smallCount">4</div></div>
+      <div class="note"><div class="small">シ</div></div>
+      <div class="note"><div class="small">シ</div></div>
+      <div class="note"><div class="small">シ</div></div>
+    </div>
+
+    <div id="note-containnaer">
+      <div class="note"><div class="big">レ</div></div>
+      <div class="note"><div class="smallsuer">ー</div></div>
+      <div class="note"><div class="small">シ</div></div>
+      <div class="note"><div class="big">ラ</div></div>
+      <div class="note"><div class="smallsuer">ー</div></div>
+      <div class="note"><div class="small">ソ</div></div>
       <div class="note"><div class="small">♪</div></div>
       <div class="note"><div class="small">♪</div></div>
     </div>
@@ -54,6 +76,10 @@ section {
   text-align: center;
   justify-content: center;
   /* background-color: */
+}
+h2 {
+  padding: 0;
+  margin: 0;
 }
 .note {
   width: 100px;
@@ -118,6 +144,28 @@ section {
   width: 70px;
   height: 70px;
   background-color: rgb(40, 61, 144);
+  border-radius: 50%;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.smallCount {
+  margin-top: 2rem;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(39, 159, 67);
+  border-radius: 50%;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.smallsuer {
+  margin-top: 2rem;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(214, 54, 54);
   border-radius: 50%;
   color: white;
   justify-content: center;

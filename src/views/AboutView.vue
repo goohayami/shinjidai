@@ -55,6 +55,10 @@ body {
   justify-content: center;
   color: azure;
 }
+h2 {
+  padding: 0;
+  margin: 0;
+}
 .note {
   width: 100px;
   height: 100px;
