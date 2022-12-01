@@ -2,47 +2,47 @@
   <section>
     <p>this is Shin jidai</p>
     <div id="note-containnaer">
-      <div class="note"><div class="hight-tone">レ</div></div>
-      <div class="note"><div class="smallh">ド</div></div>
-      <div class="note"><div class="big">シ</div></div>
-      <div class="note"><div class="small">ソ</div></div>
-      <div class="note"><div class="big">レ</div></div>
-      <div class="note"><div class="small">ソ</div></div>
-      <div class="note"><div class="big">ラ</div></div>
-      <div class="note"><div class="small">ソ</div></div>
-    </div>
-
-    <div id="note-containnaer">
-      <div class="note"><div class="hight-tone">レ</div></div>
-      <div class="note"><div class="smallh">ド</div></div>
-      <div class="note"><div class="big">シ</div></div>
-      <div class="note"><div class="small">ソ</div></div>
-      <div class="note"><div class="big">レ</div></div>
-      <div class="note"><div class="small">ソ</div></div>
-      <div class="note"><div class="big">ラ</div></div>
-      <div class="note"><div class="small">シ</div></div>
-    </div>
-
-    <div id="note-containnaer">
-      <div class="note"><div class="big faB">ファ</div></div>
-      <div class="note"><div class="small">ソ</div></div>
-      <div class="note"><div class="small">♪</div></div>
-      <div class="note"><div class="small">♪</div></div>
-      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="small">ミ</div></div>
       <div class="note"><div class="small">レ</div></div>
-      <div class="note"><div class="big">ラ</div></div>
-      <div class="note"><div class="small">シ</div></div>
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
     </div>
 
     <div id="note-containnaer">
-      <div class="note"><div class="big faB">ファ</div></div>
-      <div class="note"><div class="bigh faB">ファ</div></div>
-      <div class="note"><div class="smallh">♪</div></div>
-      <div class="note"><div class="smallh">♪</div></div>
-      <div class="note"><div class="smallh">♪</div></div>
-      <div class="note"><div class="smallh">♪</div></div>
-      <div class="note"><div class="smallh">♪</div></div>
-      <div class="note"><div class="smallh">♪</div></div>
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">シ</div></div>
+      <div class="note"><div class="big">ラ</div></div>
+      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="big">ソ</div></div>
+      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="small">♪</div></div>
+    </div>
+
+    <div id="note-containnaer">
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+    </div>
+
+    <div id="note-containnaer">
+      <div class="note"><div class="small">ミ</div></div>
+      <div class="note"><div class="small">レ</div></div>
+      <div class="note"><div class="small">シ</div></div>
+      <div class="note"><div class="big">ラ</div></div>
+      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="big">ソ</div></div>
+      <div class="note"><div class="small">♪</div></div>
+      <div class="note"><div class="small">♪</div></div>
     </div>
   </section>
 </template>
@@ -50,10 +50,10 @@
 <script></script>
 
 <style scoped>
-body {
+section {
   text-align: center;
   justify-content: center;
-  color: azure;
+  /* background-color: */
 }
 .note {
   width: 100px;
@@ -114,9 +114,9 @@ body {
 .small {
   margin-top: 2rem;
   font-size: 50px;
-  width: 60px;
-  height: 60px;
-  background-color: brown;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(104, 144, 40);
   border-radius: 50%;
   color: white;
   justify-content: center;

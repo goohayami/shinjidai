@@ -114,8 +114,8 @@ body {
 .small {
   margin-top: 2rem;
   font-size: 50px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   background-color: brown;
   border-radius: 50%;
   color: white;
